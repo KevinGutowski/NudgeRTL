@@ -2,7 +2,7 @@
   "name": "Nudge from RTL",
   "description": "Quickly resize a layer horizontally from right to left with keyboard shortcuts",
   "author": "Kevin Gutowski",
-  "homepage": "https://github.com/KevinGutowski",
+  "homepage": "https://github.com/KevinGutowski/NudgeRTL",
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
