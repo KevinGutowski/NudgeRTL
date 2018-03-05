@@ -1,18 +1,55 @@
 {
+  "name": "Nudge from RTL",
+  "description": "Quickly resize a layer horizontally from right to left with keyboard shortcuts",
+  "author": "Kevin Gutowski",
+  "homepage": "https://github.com/KevinGutowski",
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
+  "identifier": "com.kevingutowski.nudgefromRTL",
+  "version": 1.0,
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Expand horizontally RTL",
+      "identifier": "increaseHorizontallyRTL",
+      "shortcut": "cmd alt ←",
+      "script": "./my-command.js",
+      "handler": "increaseHorizontallyRTL",
+      "description": "Expand current layer horizontally from top right."
+    },
+    {
+      "name": "Compress horizontally RTL",
+      "identifier": "decreaseHorizontallyRTL",
+      "shortcut": "cmd alt →",
+      "script": "./my-command.js",
+      "handler": "decreaseHorizontallyRTL",
+      "description": "Compress current layer horizontally from top right."
+    },
+    {
+      "name": "Expand horizontally RTL (largeNudge)",
+      "identifier": "increaseHorizontallyRTLLarge",
+      "shortcut": "shift cmd alt ←",
+      "script": "./my-command.js",
+      "handler": "increaseHorizontallyRTLLarge",
+      "description": "Expand current layer horizontally from top right - by a large amount."
+    },
+    {
+      "name": "Compress horizontally RTL (largeNudge)",
+      "identifier": "decreaseHorizontallyRTLLarge",
+      "shortcut": "shift cmd alt →",
+      "script": "./my-command.js",
+      "handler": "decreaseHorizontallyRTLLarge",
+      "description": "Expand current layer horizontally from top right - by a large amount."
     }
   ],
   "menu": {
-    "title": "nudgefromRTL",
+    "title": "Nudge RTL",
     "items": [
-      "my-command-identifier"
+      "increaseHorizontallyRTL",
+      "decreaseHorizontallyRTL",
+      "-",
+      "increaseHorizontallyRTLLarge",
+      "decreaseHorizontallyRTLLarge"
     ]
   }
 }
