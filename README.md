@@ -1,73 +1,50 @@
-# nudgefromRTL
+# Nudge from Right to Left | Sketch Plugin
 
-_This plugin was created using `skpm`. For a detailed explanation on how things work, checkout the [skpm Readme](https://github.com/skpm/skpm/blob/master/README.md)._
+<a href="https://www.sketchapp.com">
+  <img width="160" height="41" src="assests/sketch-badge.png" >
+</a>
+
+This plugin, _Nudge RTL_, is used quickly resize the width a layer through easy keyboard shortcuts. It's similar to using <kbd>⌘ cmd </kbd> + <kbd>→</kbd> or <kbd>⌘ cmd </kbd> + <kbd>←</kbd> but pinned from the right side of an object.
 
 ## Usage
 
-Install the dependencies
+<kbd>^ Ctrl</kbd> + <kbd>←</kbd> = Expand layer size horizontally
 
-```bash
-npm install
-```
+<kbd>^ Ctrl</kbd> + <kbd>→</kbd> = Shrink layer size horizontally
 
-Once the installation is done, you can run some commands inside the project folder:
+**Note: Add <kbd>⇧ Shift</kbd> to increase the nudge size**
 
-```bash
-npm run build
-```
+The amount the layer resizes by is based on the user's nudge size:
 
-To watch for changes:
+- default = 1
+- default large (shift) = 10
 
-```bash
-npm run watch
-```
+This means that if you change your settings, it will respect this preference.
+<a href="https://sketchapp.com/docs/preferences/canvas/#nudge-distance">
+  <img width="616" height="460" src="assests/sketch-badge.png" >
+</a>
 
-Additionally, if you wish to run the plugin every time it is built:
+## Why make this plugin?
 
-```bash
-npm run start
-```
+Occassionaly, I wanted the ease of being able to nudge shapes into place with the ease that <kbd>⌘ cmd </kbd> + <kbd>→</kbd>. Perhaps this is useful for people who design with right-to-left languages. Lastly, I wanted to practice plugin development.
 
-## Custom Configuration
+## Installation
 
-### Babel
+1. [Download](https://github.com/KevinGutowski/NudgeRTL/releases/download/v0.0.2/plugin.sketchplugin.zip) the plugin
+2. Double-click the file, 'plugin.sketchplugin'
+3. Profit!!
 
-To customize Babel, you have two options:
+## Contribute
 
-* You may create a [`.babelrc`](https://babeljs.io/docs/usage/babelrc) file in your project's root directory. Any settings you define here will overwrite matching config-keys within skpm preset. For example, if you pass a "presets" object, it will replace & reset all Babel presets that skpm defaults to.
+This plugin is in active development.
 
-* If you'd like to modify or add to the existing Babel config, you must use a `webpack.skpm.config.js` file. Visit the [Webpack](#webpack) section for more info.
+Pull requests are welcome and please submit bugs 🐛.
 
-### Webpack
+## Contact
 
-To customize webpack create `webpack.skpm.config.js` file which exports function that will change webpack's config.
+* Follow [@kevgski](https://twitter.com/kevgski) on Twitter
+* Email <kskiviolin@gmail.com>
 
-```js
-/**
- * Function that mutates original webpack config.
- * Supports asynchronous changes when promise is returned.
- *
- * @param {object} config - original webpack config.
- * @param {boolean} isPluginCommand - wether the config is for a plugin command or a resource
- **/
-module.exports = function (config, isPluginCommand) {
-  /** you can change config here **/
-}
-```
+[![Twitter Follow](https://img.shields.io/twitter/follow/kevgski.svg?style=social&label=Follow)]()
 
-## Debugging
-
-To view the output of your `console.log`, you have a few different options:
-
-* Use the [`sketch-dev-tools`](https://github.com/skpm/sketch-dev-tools)
-* Open `Console.app` and look for the sketch logs
-* Look at the `~/Library/Logs/com.bohemiancoding.sketch3/Plugin Output.log` file
-
-Skpm provides a convenient way to do the latter:
-
-```bash
-skpm log
-```
-
-The `-f` option causes `skpm log` to not stop when the end of logs is reached, but rather to wait for additional data to be appended to the input
 
