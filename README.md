@@ -47,6 +47,4 @@ Pull requests are welcome and please submit bugs 🐛.
 * Follow [@kevgski](https://twitter.com/kevgski) on Twitter
 * Email <kskiviolin@gmail.com>
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/kevgski.svg?style=social&label=Follow)]()
-
 
