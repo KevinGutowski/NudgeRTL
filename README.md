@@ -12,6 +12,8 @@ This plugin, _Nudge RTL_, is used quickly resize the width a layer through easy 
 
 <kbd>^ Ctrl</kbd> + <kbd>→</kbd> = Shrink layer size horizontally
 
+<img width="804" height="442" src="assets/example.gif" >
+
 **Note: Add <kbd>⇧ Shift</kbd> to increase the nudge size**
 
 The amount the layer resizes by is based on the user's nudge size:
