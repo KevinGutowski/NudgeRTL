@@ -1,4 +1,4 @@
-# Nudge from Right to Left | Sketch Plugin
+# Nudge RTL | Sketch Plugin
 
 <a href="https://www.sketchapp.com">
   <img width="160" height="41" src="assets/sketch-badge.png" >
@@ -21,7 +21,7 @@ The amount the layer resizes by is based on the user's nudge size:
 
 This means that if you change your settings, it will respect this preference.
 <a href="https://sketchapp.com/docs/preferences/canvas/#nudge-distance">
-  <img width="616" height="460" src="assets/sketch-badge.png" >
+  <img width="616" height="460" src="assets/nudgesettings.png" >
 </a>
 
 ## Why make this plugin?
