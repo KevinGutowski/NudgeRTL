@@ -12,7 +12,7 @@
     {
       "name": "Expand horizontally RTL",
       "identifier": "increaseHorizontallyRTL",
-      "shortcut": "cmd alt ←",
+      "shortcut": "control cmd ←",
       "script": "./my-command.js",
       "handler": "increaseHorizontallyRTL",
       "description": "Expand current layer horizontally from top right."
@@ -20,7 +20,7 @@
     {
       "name": "Compress horizontally RTL",
       "identifier": "decreaseHorizontallyRTL",
-      "shortcut": "cmd alt →",
+      "shortcut": "control cmd →",
       "script": "./my-command.js",
       "handler": "decreaseHorizontallyRTL",
       "description": "Compress current layer horizontally from top right."
@@ -28,7 +28,7 @@
     {
       "name": "Expand horizontally RTL (largeNudge)",
       "identifier": "increaseHorizontallyRTLLarge",
-      "shortcut": "shift cmd alt ←",
+      "shortcut": "shift control cmd ←",
       "script": "./my-command.js",
       "handler": "increaseHorizontallyRTLLarge",
       "description": "Expand current layer horizontally from top right - by a large amount."
@@ -36,7 +36,7 @@
     {
       "name": "Compress horizontally RTL (largeNudge)",
       "identifier": "decreaseHorizontallyRTLLarge",
-      "shortcut": "shift cmd alt →",
+      "shortcut": "shift control cmd →",
       "script": "./my-command.js",
       "handler": "decreaseHorizontallyRTLLarge",
       "description": "Expand current layer horizontally from top right - by a large amount."
