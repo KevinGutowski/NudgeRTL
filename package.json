@@ -1,6 +1,6 @@
 {
   "name": "nudgefromrtl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "sketch": ">=3.0"
   },
@@ -21,10 +21,10 @@
   "devDependencies": {
     "@skpm/builder": "^0.4.0"
   },
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/KevinGutowski/NudgeRTL.git"
   },
-  "description" : "Quickly resize a layer horizontally from right to left with keyboard shortcuts",
+  "description": "Quickly resize a layer horizontally from right to left with keyboard shortcuts",
   "author": "Kevin Gutowski\n <kskiviolin@gmail.com\n>"
 }
