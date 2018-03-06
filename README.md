@@ -26,7 +26,7 @@ This means that if you change your settings, it will respect this preference.
 
 ## Why make this plugin?
 
-Occassionaly, I wanted the ease of being able to nudge shapes into place with the ease that <kbd>⌘ cmd </kbd> + <kbd>→</kbd>. Perhaps this is useful for people who design with right-to-left languages. Lastly, I wanted to practice plugin development.
+Occassionaly, I wanted the ease of being able to nudge shapes into place with the ease that <kbd>⌘ cmd </kbd> + <kbd>→</kbd>. Perhaps this is useful for people who design with right-to-left languages. Lastly, I wanted to practice plugin development. Feel free to reach out to me if you are just getting started!
 
 ## Installation
 
