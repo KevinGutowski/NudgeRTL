@@ -1,7 +1,7 @@
 # Nudge RTL | Sketch Plugin
 
 <a href="https://www.sketchapp.com">
-  <img width="160" height="41" src="assets/sketch-badge.png" >
+  <img width="160" height="41" src="readme_assets/sketch-badge.png" >
 </a>
 
 This plugin, _Nudge RTL_, is used quickly resize the width a layer through easy keyboard shortcuts. It's similar to using <kbd>⌘ cmd </kbd> + <kbd>→</kbd> or <kbd>⌘ cmd </kbd> + <kbd>←</kbd> but pinned from the right side of an object.
@@ -12,7 +12,7 @@ This plugin, _Nudge RTL_, is used quickly resize the width a layer through easy 
 
 <kbd>^ Ctrl</kbd> + <kbd>→</kbd> = Shrink layer size horizontally
 
-<img width="804" height="442" src="assets/example.gif" >
+<img width="804" height="442" src="readme_assets/example.gif" >
 
 **Note: Add <kbd>⇧ Shift</kbd> to increase the nudge size**
 
@@ -23,7 +23,7 @@ The amount the layer resizes by is based on the user's nudge size:
 
 This means that if you change your settings, it will respect this preference.
 <a href="https://sketchapp.com/docs/preferences/canvas/#nudge-distance">
-  <img width="616" height="460" src="assets/nudgesettings.png" >
+  <img width="616" height="460" src="readme_assets/nudgesettings.png" >
 </a>
 
 ## Why make this plugin?
