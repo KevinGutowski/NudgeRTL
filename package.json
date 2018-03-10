@@ -7,7 +7,7 @@
   "skpm": {
     "name": "nudgefromRTL",
     "manifest": "src/manifest.json",
-    "main": "plugin.sketchplugin",
+    "main": "nudgefromrtl.sketchplugin",
     "assets": [
       "assets/**/*"
     ]
