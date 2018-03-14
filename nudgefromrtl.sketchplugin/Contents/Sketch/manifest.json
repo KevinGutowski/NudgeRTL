@@ -7,7 +7,6 @@
   "bundleVersion": 1,
   "icon": "icon.png",
   "identifier": "com.kevingutowski.nudgefromRTL",
-  "version": "0.0.3",
   "commands": [
     {
       "name": "Expand horizontally RTL",
@@ -52,6 +51,7 @@
       "decreaseHorizontallyRTLLarge"
     ]
   },
+  "version": "0.0.5",
   "disableCocoaScriptPreprocessor": true,
   "appcast": "https://raw.githubusercontent.com/KevinGutowski/NudgeRTL/master/.appcast.xml"
 }

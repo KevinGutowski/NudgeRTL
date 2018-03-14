@@ -32,9 +32,10 @@ Occassionaly, I wanted the ease of being able to nudge shapes into place with th
 
 ## Installation
 
-1. [Download](https://github.com/KevinGutowski/NudgeRTL/releases/download/v0.0.2/plugin.sketchplugin.zip) the plugin
-2. Double-click the file, 'plugin.sketchplugin'
-3. Profit!!
+1. [Download](https://github.com/KevinGutowski/NudgeRTL/releases/download/v0.0.5/nudgefromrtl.sketchplugin.zip) the plugin
+2. Unzip the file
+3. Double-click the file, 'nudgefromrtl.sketchplugin'
+4. Profit!!
 
 ## Contribute
 
