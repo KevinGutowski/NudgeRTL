@@ -8,9 +8,9 @@ This plugin, _Nudge RTL_, is used quickly resize the width a layer through easy 
 
 ## Usage
 
-<kbd>^ Ctrl</kbd> + <kbd>←</kbd> = Expand layer size horizontally
+<kbd>^ Ctrl</kbd> + <kbd>⌘ Cmd</kbd> + <kbd>←</kbd> = Expand layer size horizontally
 
-<kbd>^ Ctrl</kbd> + <kbd>→</kbd> = Shrink layer size horizontally
+<kbd>^ Ctrl</kbd> + <kbd>⌘ Cmd</kbd> + <kbd>→</kbd> = Shrink layer size horizontally
 
 <img width="804" height="442" src="readme_assets/example.gif" >
 
